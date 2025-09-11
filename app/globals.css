@@ -1,8 +1,13 @@
 @import "tailwindcss";
 
-:root {
+:root[data-theme='light'] {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+:root[data-theme='dark'] {
+  --background: #0a0a0a;
+  --foreground: #ededed;
 }
 
 @theme inline {
@@ -12,12 +17,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* System preference is handled in layout's inline script; no media override needed. */
 
 body {
   background: var(--background);
