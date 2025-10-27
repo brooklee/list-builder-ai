@@ -16,21 +16,23 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You will need to get API key for the following and add them to a .env file to run the project
+[SerpAPI homeDepot](https://serpapi.com/home-depot-product) 
+[OpenAI API](https://openai.com/api/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+add them to the .env file as follows: 
+OPENAI_API_KEY=xxx
+SERPAPI_KEY=xxx
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## More and FAQ
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Why haven't you deployed this app? 
+Money, currentley this app is using OpenAI's API and I do not have endless amounts of cash to run everyones query's it also is currentley running on serpAPI which I only get 250 calls per month for free. for future itereation I plan on using maybe playwright to scrape HomeDepot myself and i have looked into using Mistral AI which may be an option it tne future but for now SerpApi and OpenAPI work fine. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+But I want to test the App and try it myself.
+Trust me Bro, it just works. but seriously if you want to run and test it you can follow the above steps and you will need to get your own env keys from SerpAPI and OpenAI to run. 
 
-## Deploy on Vercel
+Why did you build this?
+For one I am a scatter brain and always want to work on diffrent DIY projects all the time. I find build plans online that and want to try them. One thing i find particulaly frustarting is estimating how much a project will cost me. This is a quick way to decide if the project is still worth pusuing based on cost. I also wanted to expand my skills with AI and how to integrate it in web aplication. 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

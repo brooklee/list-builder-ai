@@ -42,6 +42,8 @@ export default function Home() {
       </header>
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <h1 className="text-4xl font-bold">Build List ai</h1>
+        <p className="text-md text-gray-500 max-w-[600px]">Ever wonder how much a build project will cost? We can help you get a rough estimate of the cost of your project. Just fill out the form below and we will use ai to get a create a shopping list with a cost break down from Home Depot.</p>
+        <hr className="w-full border-gray-200" />
         <Form />
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
