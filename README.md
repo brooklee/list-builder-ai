@@ -28,11 +28,14 @@ SERPAPI_KEY=xxx
 ## More and FAQ
 
 Why haven't you deployed this app? 
+
 Money, currentley this app is using OpenAI's API and I do not have endless amounts of cash to run everyones query's it also is currentley running on serpAPI which I only get 250 calls per month for free. for future itereation I plan on using maybe playwright to scrape HomeDepot myself and i have looked into using Mistral AI which may be an option it tne future but for now SerpApi and OpenAPI work fine. 
 
-But I want to test the App and try it myself.
+But I want to test the App and try it myself
+
 Trust me Bro, it just works. but seriously if you want to run and test it you can follow the above steps and you will need to get your own env keys from SerpAPI and OpenAI to run. 
 
 Why did you build this?
-For one I am a scatter brain and always want to work on diffrent DIY projects all the time. I find build plans online that and want to try them. One thing i find particulaly frustarting is estimating how much a project will cost me. This is a quick way to decide if the project is still worth pusuing based on cost. I also wanted to expand my skills with AI and how to integrate it in web aplication. 
+
+For one I am a scatter brain and always want to work on diffrent DIY projects all the time. I find build plans online that I want to try all the time, one thing I find particulaly frustarting is estimating how much a project will cost me. This is a quick way to decide if the project is still worth puruing based on cost. I also wanted to expand my skills with AI and how to integrate it in web aplication. 
 
