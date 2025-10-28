@@ -37,5 +37,5 @@ Trust me Bro, it just works. but seriously if you want to run and test it you ca
 
 Why did you build this?
 
-For one I am a scatter brain and always want to work on diffrent DIY projects all the time. I find build plans online that I want to try all the time, one thing I find particulaly frustarting is estimating how much a project will cost me. This is a quick way to decide if the project is still worth puruing based on cost. I also wanted to expand my skills with AI and how to integrate it in web aplication. 
+For one I am a scatter brain and always want to work on diffrent DIY projects all the time. I find build plans online that I want to try all the time, one thing I find particulaly frustarting is estimating how much a project will cost me. This is a quick way to decide if the project is still worth pursuing based on cost. I also wanted to expand my skills with AI and how to integrate it in web aplication. 
 

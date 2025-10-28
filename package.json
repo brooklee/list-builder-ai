@@ -11,6 +11,7 @@
   "dependencies": {
     "next": "15.5.2",
     "openai": "^5.20.1",
+    "pdfjs-dist": "^5.4.296",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "serpapi": "^2.2.1"
